@@ -1,0 +1,132 @@
+@charset "UTF-8";
+
+#wrapper_account {
+	padding: 5px 260px 5px 5px;
+	overflow: auto;
+}
+
+#account-form {
+	overflow: auto;
+}
+
+#account-form #account-table {
+	border: solid 2px rgb(174, 155, 79);
+	border-collapse: collapse;
+}
+
+#account-form #account-table {
+	border: solid 2px rgb(174, 155, 79);
+	width: 95%;
+}
+
+#account-form #account-table td {
+	border: solid 1px rgb(174, 155, 79);
+}
+
+#account-form #account-table .left {
+	border: solid 2px rgb(174, 155, 79);
+	padding: 5px;
+	height: 30px;
+	background-color: rgb(18, 39, 74);
+	color: rgb(255, 255, 255);
+	width: 50px;
+	background-color: rgb(18, 39, 74);
+}
+
+#account-form #account-table input[type="text"] {
+	width: 90%;
+	height: 20px;
+	border: solid 1px rgb(191, 191, 191);
+	padding: 3px;
+	margin: 1px;
+}
+
+#account-form #account-table select {
+	height: 25px;
+	border: solid 1px rgb(191, 191, 191);
+	margin: 1px;
+}
+
+#account-form #account-table textarea {
+	width: 90%;
+	height: 40px;
+	border: solid 1px rgb(191, 191, 191);
+	padding: 2px;
+	margin: 1px;
+	overflow: scroll;
+	height: 40px;
+}
+
+#account-form #account-registration {
+	border-radius: 15%;
+	background-color: rgb(0, 0, 0);
+	paddding: 10px;
+	color: rgb(255, 255, 255);
+	height: 40px;
+	width: 80px;
+	margin: 5px;
+}
+
+#emailbar {
+	float: right;
+	width: 250px;
+	margin: 5px -230px 0px 0px;
+}
+
+#emailbar #msg-list {
+	margin: 10px;
+	list-style: none;
+	color: rgb(176, 45, 35);
+}
+
+#emailbar #email-table {
+	border-collapse: collapse;
+}
+
+#emailbar #email-table th {
+	color: rgb(0, 0, 0);
+	background: rgb(18, 39, 74); color : rgb( 255, 255, 255);
+	border: solid 1px rgb(174, 155, 79);
+	color: rgb(255, 255, 255);
+	padding: 5px;
+}
+
+#emailbar #email-table td {
+	border: solid 1px rgb(174, 155, 79);
+	padding: 5px;
+}
+
+#emailbar #email-table td .delete_submit {
+	border-radius: 15%;
+	background: rgb(176, 46, 35);
+	paddding: 3px;
+	color: rgb(255, 255, 255);
+	height: 20px;
+	width: 50px;
+}
+
+#emailbar #email-form {
+	margin: 5px 0px;
+	border: solid 1px rgb(174, 155, 79);
+	padding: 2px;
+	background: rgb(240, 235, 219);
+}
+
+
+#emailbar #email-form input[type="text"] {
+	width: 90%;
+	height: 15px;
+	border: solid 1px rgb(191, 191, 191);
+	padding: 3px;
+	margin: 1px;
+}
+
+#emailbar #email-form input[type="submit"] {
+	border-radius: 15%;
+	background: rgb(0, 0, 0);
+	paddding: 5px;
+	color: rgb(174, 155, 79);
+	height: 30px;
+	width: 80px;
+	margin: 5px;
+}

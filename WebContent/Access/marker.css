@@ -1,0 +1,122 @@
+@charset "UTF-8";
+
+#msg-list {
+	margin: 10px;
+	list-style: none;
+	color: rgb(176, 45, 35);
+}
+
+#category-register {
+	margin: 5px 50px 5px 10px;
+	border: solid 1px rgb(174, 155, 79);
+	padding: 15px;
+	background: rgb(240, 235, 219);
+}
+
+#category-register input[type="text"] {
+	width: 300px;
+	height: 20px;
+	border: solid 1px rgb(191, 191, 191);
+	padding: 3px;
+}
+
+#category-register input[type="submit"] {
+	border-radius: 15%;
+	background: rgb(0, 0, 0);
+	paddding: 10px;
+	color: rgb(174, 155, 79);
+	height: 30px;
+	width: 100px;
+	margin: 5px;
+}
+
+#category-list {
+
+}
+
+#category-list .category {
+	padding: 10px 100px 0px 15px
+}
+
+#category-list .category .category-header {
+	background-color: rgb(18, 39, 74);
+	color: rgb(255, 255, 255);
+	display: block;
+	padding: 10px 15px;
+	border: solid 2px rgb(174, 155, 79);
+}
+
+#category-list .category .category-form {
+	float: right;
+	margin: 5px -90px 5px 0px;
+}
+
+#category-list .category .category-form .delete_submit {
+	border-radius: 15%;
+	background: rgb(176, 46, 35);
+	paddding: 3px;
+	color: rgb(255, 255, 255);
+	height: 30px;
+	width: 80px;
+	font-size: large;
+}
+
+#category-list .category .bookmark-list {
+	list-style: none;
+}
+
+#category-list .category .bookmark-list .bookmark {
+	background-color: rgb(231, 227, 229);
+	margin: 5px 15px 0px 15px;
+	padding: 10px 70px 10px 15px;
+	border: solid 1px rgb(174, 155, 79);
+	font-size: large;
+}
+
+#category-list .category .bookmark-list .bookmark:last-child {
+	background-color: rgb(231, 227, 229);
+	margin: 5px 15px 0px 15px;
+	padding: 10px 15px 10px 15px;
+	border: solid 1px rgb(174, 155, 79);
+	font-size: large;
+}
+
+#category-list .category .bookmark-list .bookmark .bookmark-header {
+	display: block;
+}
+
+#category-list .category .bookmark-list .bookmark .bookmark-form {
+	float: right;
+	margin-right: -50px;
+}
+
+#category-list .category .bookmark-list .bookmark .bookmark-form .delete_submit {
+	border-radius: 15%;
+	background: rgb(176, 46, 35);
+	paddding: 10px;
+	color: rgb(255, 255, 255);
+	height: 30px;
+	width: 80px;
+}
+
+#category-list .category .bookmark-list .bookmark .bookmark-register {
+}
+
+#category-list .category .bookmark-list .bookmark .bookmark-register input[type="text"]
+	{
+	border: solid 1px rgb(0, 0, 0);
+	width: 200px;
+	padding: 5px;
+}
+
+#category-list .category .bookmark-list .bookmark .bookmark-register input[type="submit"]
+	{
+	border-radius: 15%;
+	background: rgb(0, 0, 0);
+	paddding: 10px;
+	color: rgb(174, 155, 79);
+	height: 30px;
+	width: 80px;
+	margin: 5px;
+	float: right;
+}

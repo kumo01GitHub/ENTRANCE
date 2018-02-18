@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+#msg-list {
+	margin: 10px;
+	list-style: none;
+	color: rgb(176, 45, 35);
+}
+
+#poster {
+	margin: 5px 10px 5px 10px;
+	border: solid 1px rgb(174, 155, 79);
+	padding: 15px;
+	background: rgb(240, 235, 219);
+}
+
+#poster textarea {
+	border: solid 1px rgb(174, 155, 79);
+	padding: 5px;
+	margin: 5px;
+	width: 80%;
+	height: 50px;
+}
+
+#poster select {
+	border: solid 1px rgb(174, 155, 79);
+	width: 60px;
+}
+
+#poster input[type="submit"] {
+	border-radius: 15%;
+	background: rgb(0, 0, 0);
+	paddding: 10px;
+	color: rgb(174, 155, 79);
+	height: 30px;
+	width: 50px;
+	margin: 5px;
+}
+
+#show-table {
+	padding: 10px;
+	width: 90%;
+}
+
+#show-table thead tr th {
+	width: 30%;
+}
+
+#show-table .tile {
+	margin: 5px;
+	border: solid 2px rgb(208, 209, 213);
+	background: rgb(250, 250, 250);
+	vertical-align: top;
+	height: 150px;
+}
+
+#show-table .tile .panel-form {
+	float: right;
+}
+
+#show-table .tile .panel-form .update_submit {
+	border: none;
+	margin: 2px;
+	width: 10px;
+	height: 10px;
+	background: url(./update.png) left top no-repeat;
+	background-size: 10px;
+}
+
+#show-table .tile .panel-form .delete_submit {
+	border: none;
+	margin: 2px;
+	width: 10px;
+	height: 10x;
+	background: url(./delete.png) left top no-repeat;
+	background-size: 10px;
+}
+
+#show-table .tile .posting {
+	padding: 5px;
+	clearfix: both;
+}
